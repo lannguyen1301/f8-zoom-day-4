@@ -72,42 +72,23 @@ a {
 }
 
 .company-top {
-    width: 100%;
     margin-top: 16px;
-    text-align: justify;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
-.company-left {
-    display: inline-block;
+.company-title {
+    width: 80%;
 }
 
-.company-right {
-    display: inline-block;
+.empty {
+    
 }
 
-.company-left,
-.company-right {
-    font-weight: 500;
+.company-desc {
+    width: 20%;
 }
 
 .company-bottom {
     margin-top: 20px;
-}
-
-.company-list {
-    list-style: disc;
-    margin-left: 28px;
-    font-size: 13px;
-    text-align: justify;
-    line-height: 1.4;
-}
-
-.h2-desc {
-    margin-top: 16px;
-}
-
-.company-bolt {
-    font-weight: 500;
 }

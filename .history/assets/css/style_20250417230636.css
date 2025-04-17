@@ -23,7 +23,6 @@ a {
 
 .top-desc {
     margin: 22px 0 35px;
-    text-align: center;
 }
 
 .title-desc {
@@ -61,53 +60,6 @@ a {
     border-radius: 5px;
 }
 
-.infor-desc {
-    margin-top: 8px;
-    color: #020202;
-}
-
-.work-experience {
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-.company-top {
-    width: 100%;
-    margin-top: 16px;
-    text-align: justify;
-    display: flex;
-    justify-content: space-between;
-}
-
-.company-left {
-    display: inline-block;
-}
-
-.company-right {
-    display: inline-block;
-}
-
-.company-left,
-.company-right {
-    font-weight: 500;
-}
-
-.company-bottom {
-    margin-top: 20px;
-}
-
-.company-list {
-    list-style: disc;
-    margin-left: 28px;
-    font-size: 13px;
-    text-align: justify;
-    line-height: 1.4;
-}
-
-.h2-desc {
-    margin-top: 16px;
-}
-
-.company-bolt {
-    font-weight: 500;
+.info-desc {
+    
 }
