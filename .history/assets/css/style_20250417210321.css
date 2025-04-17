@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.title {
+    color: red;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 30px;
+}
