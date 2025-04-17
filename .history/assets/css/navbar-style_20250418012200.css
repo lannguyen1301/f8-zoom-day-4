@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #e6e5e5;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    /* width: 100%; */
+}
+
+ul.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
