@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #e6e5e5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    max-width: 764px;
+    margin: inherit;
+    padding: 20px 66px;
+    background-color: #fff;
+}
+
+.top-desc {
+    margin: 22px 0 35px;
+    text-align: center;
+}
+
+.title-desc {
+    /* margin: 30px 0; */
+    font-size: 32px;
+    color: #020202;
+    font-weight: 900;
+    text-align: center;
+}
+
+.list {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    color: green;
+    font-weight: 500;
+}
+
+.item {
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.link {
+    color: inherit;
+    padding: 10px;
+}
+
+.item:hover > .link {
+    color: orange;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.infor-desc {
+    margin-top: 8px;
+    color: #020202;
+}
+
+.work-experience {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.company-top {
+    width: 100%;
+    margin-top: 16px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-left {
+    display: inline-block;
+}
+
+.company-right {
+    display: inline-block;
+}
+
+.company-left,
+.company-right {
+    font-weight: 500;
+}
+
+.company-bottom {
+    margin-top: 20px;
+}
+
+.company-list {
+    list-style: disc;
+    margin-left: 28px;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.h2-desc {
+    margin-top: 16px;
+}
+
+.company-bolt {
+    font-weight: 500;
+}

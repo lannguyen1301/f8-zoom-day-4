@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/form-resgiter.css">
+</head>
+
+<body>
+    <div class="content inner">
+        <h1 class="title-desc">Form Register</h1>
+        <div class="top-desc">
+            <form action="https://api-gateway.fullstack.edu.vn/action_page.php" method="post" autocomplete="off"
+                enctype="multipart/form-data">
+                <!-- Avatar -->
+                <div class="form-group">
+                    <label for="profile" class="profile-group">
+                        <img src="./assets/img/avatar-icon.png" alt="" class="profile-img">
+                        <span>Profile Picture</span>
+                    </label>
+                    <input type="file" name="profile" id="profile" class="input-profile" multiple required
+                        accept="image/*" autofocus readonly>
+                </div>
+
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="name">Display Name</label>
+                    <input type="text" name="name" id="name" maxlength="20" minlength="5" pattern="[" size="30"
+                        placeholder="Enter your Name" autocomplete="on" spellcheck="false" autofocus>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="on" spellcheck="false"
+                        inputmode="email" onchange="alert('Email của bạn đã thay đổi!')">
+                </div>
+
+                <!-- Number -->
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your number" required
+                        pattern="^\+?[0-9]{10,15}$" maxlength="15" minlength="10" autocomplete="tel"
+                        onchange="alert('Số điện thoại của bạn đã thay đổi!')" inputmode="tel">
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required
+                        maxlength="20" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}"
+                        autocomplete="current-password" autofocus spellcheck="false">
+                </div>
+
+                <!-- Repassword -->
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password"
+                        placeholder="Vui lòng nhập lại mật khẩu" required autocomplete="new-password" maxlength="20"
+                        minlength="8">
+                </div>
+
+                <!-- Gender -->
+                <div class="form-group">
+                    <label for=""> Giới tính</label>
+                    <input type="radio" name="gender" id="male" value="male" required autofocus checked>
+                    <label for="male">Man</label>
+                    <input type="radio" name="gender" id="female" value="female" required autofocus>
+                    <label for="female">Feman</label>
+                    <input type="radio" name="gender" id="other" value="other" required autofocus>
+                    <label for="other">Other</label>
+                </div>
+                <div class="form-group">
+                    <label for="birthday">Date of Birth</label>
+                    <input type="date" name="birthday" id="birthday" required autocomplete="bday-day" min="1900-01-01"
+                        max="">
+                </div>
+
+                <!-- Date -->
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address" placeholder="Enter your address" autofocus
+                        spellcheck="false">
+                </div>
+
+                <!-- Communication -->
+                <div class="form-group">
+                    <label for="">Communication Preferences</label>
+                    <input type="radio" name="preferences" id="newsletter" required checked>
+                    <label for="newsletter">Subscribe to Newsletter</label>
+                    <input type="radio" name="preferences" id="promotional" required>
+                    <label for="promotional">Receive Promotional Emails</label>
+                    <input type="radio" name="preferences" id="update" required>
+                    <label for="update">Get Product Updates</label>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
